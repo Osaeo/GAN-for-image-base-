@@ -1,4 +1,21 @@
+#ifndef GAN
+#define GAN
+
+
 #include <Eigen/Dense>
 #include <iostream>
 
-void test();
+#include "discri.hpp"
+#include "generator.hpp"
+
+class Gan{
+public:
+    Gan();
+private:
+    Generator generator;
+    Discri discriminator;
+};
+
+#endif //!GAN
+
+

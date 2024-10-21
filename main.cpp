@@ -5,6 +5,6 @@
 
 int main() {
     
-    test();
+    Gan gan;
     return 0;
 }
