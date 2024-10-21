@@ -8,7 +8,7 @@ int main() {
     mat(0, 1) = -1;
     mat(1, 1) = mat(1, 0) + mat(0, 1);
     
-    std::cout << mat << std::endl;
+    
     std::cout << mat << std::endl;
     return 0;
 }
