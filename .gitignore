@@ -3,3 +3,4 @@ obj/gan.o
 obj/main.o
 obj/discri.o
 obj/generator.o
+obj/resMan.o
