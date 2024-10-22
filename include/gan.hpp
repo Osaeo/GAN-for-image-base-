@@ -15,6 +15,7 @@ public:
 private:
     Generator generator;
     Discri discriminator;
+    ResMan resman;
 };
 
 #endif //!GAN
